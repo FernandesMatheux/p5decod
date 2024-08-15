@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Phantom Thieves Decoder</title>
+
+</head>
+<body>
+    <header class="cabecalho" ></header>
+        <nav class="cabecalho_menu">
+            <img class="cabeca" src="images/mask.png" alt="mascara">
+            <div class="ancoras">
+                <a class="pthieves" href="sobre.html" target="_blank">Phantom Thieves</a>
+                <a class="sobremim" href="sobremim.html" target="_blank">Sobre mim</a>
+            </div>
+        </nav>
+    <main>
+    
+        <div class="flex">
+            <section class="principal">
+                <h1 class="principal_titulo">Phantom Thieves Decoder!</h1>
+                <p class="principal_texto">Você irá receber uma coordenada ou um recado dos Phantom Thieves...<br> Mas cuidado, a polícia está na sua cola! <br> Portanto, para entender o recado e respondê-lo, <br> você precisará codificar e descodificar a comunicação!</p>
+                <textarea class="areadotexto" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+                <div class="informacao">
+                    <img class="exclama" src="images/exclama.png" alt="exclamação"><h6 class="txtinformacao">Apenas letras minúsculas e sem acento</h6>
+                </div>
+                <div class="botoes">
+                    <button class="btenc" onclick="btnEncriptar()"><img class="cadfechado" src="images/fechado.png" alt="cadeadofechado">Criptografar</button>
+                    <button class="btdes" onclick="btnDesencriptar()"> <img class="cadaberto" src="images/aberto.png" alt="cadeadoaberto">Descriptografar</button>
+                </div>
+            </section>
+            <section class="retangulo">
+                <div class="retanguloforma">
+                    <img class="imgmorgana" src="images/morgana.png" alt="boneco">
+                    <h3 class="retangulotit">Nenhuma mensagem encontrada</h3>
+                    <p class="retangulotxt">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            
+                </div>
+            </section>
+        </div>
+    
+        <footer>
+            <p class="rodape">Desenvolvido por Matheus Fernandes.</p>
+        </footer>
+
+        
+</body>
+    <script src="script.js"></script>
+</html>
