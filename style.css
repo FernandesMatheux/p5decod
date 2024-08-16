@@ -101,13 +101,13 @@ body {
     -3px -3px 0 #000,
     3px -3px 0 #000;
     text-align: center;
-    padding-left: 7%;
+    padding-left: 4%;
 }
 
 .principal_texto {
     font-family:'Arvo', sans-serif;
     font-size: 23px;
-    padding-left: 7%;
+    padding-left: 4%;
     font-weight: 700;
     color: white;
     -webkit-text-stroke: 2px #000;
@@ -198,7 +198,7 @@ textarea:hover {
 .btdes {
     background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
     width: 23%;
-    padding: 30px;
+    padding: 20px 30px 20px 30px;
     border-radius: 25px;
     font-size: 20px;
     font-family: 'Bebas Neue',sans-serif;
