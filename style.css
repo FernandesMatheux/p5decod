@@ -80,7 +80,7 @@ body {
 .principal {
     background-color: rgba(128, 128, 128, 0.833);
     border-radius: 25px;
-    margin: 40px 10px 20px 10px;
+    margin: 40px 10px 20px 15px;
     display: flex;
     flex-wrap: wrap;
     width: 68%;
@@ -91,7 +91,7 @@ body {
 .principal_titulo {
     font-family: 'Bubblegum Superstar', sans-serif;
     padding-top: 10px;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     -webkit-text-stroke: 2px black;
     color: #fff;
@@ -106,7 +106,7 @@ body {
 
 .principal_texto {
     font-family:'Arvo', sans-serif;
-    font-size: 29px;
+    font-size: 16px;
     padding-left: 7%;
     font-weight: 700;
     color: white;
