@@ -80,7 +80,7 @@ body {
 .principal {
     background-color: rgba(128, 128, 128, 0.833);
     border-radius: 25px;
-    margin: 40px 10px 20px 120px;
+    margin: 40px 10px 20px 10px;
     display: flex;
     flex-wrap: wrap;
     width: 68%;
