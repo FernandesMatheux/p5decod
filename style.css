@@ -2,17 +2,23 @@
 
 @font-face {
     font-family: 'Bubblegum Superstar';
-    src: url('fonts/BUBBS_.TTF') format('truetype');
+    src: url('fonts/BUBBS___.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;   
 }
 
-body {
+
+
+* {
     box-sizing: border-box;
-    background-image: url(images/bg2.png); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    
+}
+
+body {
+    background-image: url(images/bg2.png); /* Caminho para a imagem de fundo*/ 
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -26,26 +32,37 @@ body {
     align-items: center;
     background-color: #000000ca;
     height: 8%;
-    padding: 10px 20px;
+}
+
+.cabeca {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .ancoras {
-    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
 }
 
-.pthieves, .sobremim {
+.pthieves {
     text-decoration: none;
     color: white;
     padding-right: 25px;
 }
 
 .sobremim {
+    text-decoration: none;
+    color: white;
     padding-right: 50px;
 }
 
 .flex {
     display: flex;
+    
 }
 
 .container {
@@ -55,11 +72,11 @@ body {
 }
 
 .ptievesimg {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: 17%;
+    height: 30%;
     border-radius: 25px;
     margin-right: 10%;
+    
 }
 
 .principal {
@@ -68,8 +85,7 @@ body {
     margin: 40px 10px 20px 120px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 1200px;
+    width: 68%;
     gap: 10px;
     padding-bottom: 20px;      
 }
@@ -77,17 +93,22 @@ body {
 .principal_titulo {
     font-family: 'Bubblegum Superstar', sans-serif;
     padding-top: 10px;
-    font-size: 3rem;
+    font-size: 60px;
     color: white;
     -webkit-text-stroke: 2px black;
-    text-shadow: 3px 3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000;
+    color: #fff;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
     text-align: center;
     padding-left: 7%;
 }
 
-.principal_texto, .principal_textoalt {
-    font-family: 'Arvo', sans-serif;
-    font-size: 1.2rem;
+.principal_texto {
+    font-family:'Arvo', sans-serif;
+    font-size: 29px;
     padding-left: 7%;
     font-weight: 700;
     color: white;
@@ -101,26 +122,33 @@ body {
     margin: 5%;
     padding: 2%;
     justify-items: center;
+    font-family:'Arvo', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 2px #000;
+    text-align: justify;
 }
 
 .areadotexto {
-    width: 100%;
-    max-width: 700px;
+    width: 70%;
     border: none;
     border-radius: 25px;
     padding-left: 18px;
     padding-top: 5px;
     margin-left: 7%;
     margin-bottom: 10px;
+    align-self: center;
     background-color: #6f1313;
     color: white;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    flex-basis: 80%;
 }
 
 textarea:hover {
-    background-image: linear-gradient(to top,#9b1f1f,#C9161D );
-    border-color: #000000; 
+    background-image: linear-gradient(to top,#9b1f1f,#C9161D ); /* Cor de fundo ao passar o mouse */
+    border-color: #000000; /* Cor da borda ao passar o mouse */
     transform: scale(1.1);
 }
 
@@ -135,74 +163,122 @@ textarea:hover {
 
 .txtinformacao {
     font-family: 'Arvo', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 300;
     flex-basis: 100%;
+    font-weight: 700;
+    
+}
+
+.exclama{ 
+    height: 15px;
+    width: 15px;
 }
 
 .botoes {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 100%;
+    flex-basis: 100%;
 }
 
-.btenc, .btdes {
+.btenc {
     background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
+    margin-left: 7%;
     width: 20%;
-    max-width: 200px;
-    padding: 15px;
+    padding: 25px;
     border-radius: 25px;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-family: 'Bebas Neue',sans-serif;
     color: white;
     border: ridge 7px black;
-    text-align: center;
+    align-self: center;
     letter-spacing: 2px;
-    cursor: pointer;
-    box-sizing: border-box;
 }
+
+.btdes {
+    background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
+    width: 20%;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Bebas Neue',sans-serif;
+    color: white;
+    border: ridge 7px black;
+    align-self: center;
+    letter-spacing: 2px;
+
+}
+
+.cadfechado {
+    padding-right: 15px;
+    width: 40px;    
+}
+
+.cadaberto {
+    padding-right: 12px;
+    width: 38px;    
+}
+
+.btenc:hover {
+    background-image: linear-gradient(to top,#6b1616,#C9161D );
+    transform: scale(1.1);
+}
+
+.btdes:hover {
+    background-image: linear-gradient(to top,#9b1f1f,#C9161D );
+    transform: scale(1.1);
+}
+
+
 
 .retanguloforma {
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    padding: 20px;
+    width: 400px;
+    height: 750px;
+    margin-bottom: 20px;
     border-radius: 32px;
-    margin: 40px 10px;  
+    margin-left: 10px;
+    margin-top: 40px;  
     background-color:rgba(128, 128, 128, 0.833);  
 }
-
 .retangulotit {
-    width: 100%;
-    max-width: 336px;
-    height: auto;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     font-family: 'Bebas Neue',sans-serif;
-    font-size: 2rem;
+    font-size: 34px;
+    align-items: center;
+    text-decoration: none;
     text-align: center;
     color: black;
     letter-spacing: 2px;   
 }
 
 .retangulotxt {
-    width: 100%;
-    max-width: 338px;
+    width: 338px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
     font-family: 'Poppins',sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 24px;
     text-align: center;
-    color: black;  
+    color: black; 
+    
+    
 }
 
 .imgmorgana {
-    width: 100%;
-    max-width: 336px;
-    height: auto;
-    margin: 32px;
+    width: 336px;
+    height: 304px;
+    margin: 32px 32px 32px 32px;
+    
 }
 
 .rodape {
@@ -213,12 +289,12 @@ textarea:hover {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem; 
+    font-size: 20px; 
 }
 
 .mensagem-final {
     font-family: 'Bubblegum Superstar', sans-serif;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -227,7 +303,11 @@ textarea:hover {
     border: 3px solid #c9161d;
     margin-top: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000;
 }
 
 .botao-copiar {
@@ -263,88 +343,37 @@ textarea:hover {
 }
 
 .euimg {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+    width: 20%;
+    height: 20%;
     border-radius: 50px;
+
 }
 
 a {
-    text-decoration: none; 
-}
+    text-decoration: none; /* Remove sublinhado do link */
+  }
   
-.btnsobre {
+  .btnsobre {
     background-image: linear-gradient(45deg, #C9161D, #4B0F0F, #090808);
-    margin: 10px auto; 
-    padding: 15px 25px; 
+    margin: 10px auto; /* Centraliza horizontalmente e ajusta o espaço entre botões */
+    padding: 15px 25px; /* Ajusta o espaço interno (topo e laterais) */
     border-radius: 25px;
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     border: ridge 7px black;
     text-align: center;
-    display: inline-block; 
+    display: inline-block; /* Mantém o botão ajustado ao conteúdo */
     letter-spacing: 2px;
-    cursor: pointer; 
-    min-width: 200px;
-    box-sizing: border-box; 
-}
+    cursor: pointer; /* Mãozinha no mouse */
+    min-width: 200px; /* Define uma largura mínima */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
+  }
   
-.btnsobre:hover {
-    background-image: linear-gradient(45deg, #4B0F0F, #C9161D, #090808);
-}
+  .btnsobre:hover {
+    background-image: linear-gradient(45deg, #4B0F0F, #C9161D, #090808); /* Efeito hover */
+  }
+  
 
-/* Media Queries for Responsiveness */
 
-@media (max-width: 768px) {
-    .principal_titulo {
-        font-size: 2rem;
-    }
 
-    .principal_texto, .principal_textoalt {
-        font-size: 1rem;
-    }
-
-    .btenc, .btdes {
-        width: 100%;
-        padding: 10px;
-        font-size: 1rem;
-    }
-
-    .retanguloforma {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .imgmorgana {
-        max-width: 250px;
-    }
-}
-
-@media (max-width: 480px) {
-    .principal {
-        margin: 20px 5px;
-        width: 90%;
-    }
-
-    .principal_titulo {
-        font-size: 1.5rem;
-    }
-
-    .principal_texto, .principal_textoalt {
-        font-size: 0.9rem;
-    }
-
-    .btenc, .btdes {
-        padding: 8px;
-        font-size: 0.9rem;
-    }
-
-    .retanguloforma {
-        max-width: 250px;
-    }
-
-    .imgmorgana {
-        max-width: 200px;
-    }
-}
