@@ -91,7 +91,7 @@ body {
 .principal_titulo {
     font-family: 'Bubblegum Superstar', sans-serif;
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     -webkit-text-stroke: 2px black;
     color: #fff;
@@ -106,7 +106,7 @@ body {
 
 .principal_texto {
     font-family:'Arvo', sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     padding-left: 7%;
     font-weight: 700;
     color: white;
@@ -197,8 +197,8 @@ textarea:hover {
 
 .btdes {
     background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
-    width: 20%;
-    padding: 25px;
+    width: 23%;
+    padding: 30px;
     border-radius: 25px;
     font-size: 20px;
     font-family: 'Bebas Neue',sans-serif;
@@ -241,7 +241,8 @@ textarea:hover {
     margin-bottom: 20px;
     border-radius: 32px;
     margin-left: 10px;
-    margin-top: 40px;  
+    margin-top: 40px; 
+    margin-right: 25px;
     background-color:rgba(128, 128, 128, 0.833);  
 }
 .retangulotit {
@@ -273,8 +274,8 @@ textarea:hover {
 }
 
 .imgmorgana {
-    width: 336px;
-    height: 304px;
+    width: 280px;
+    height: 250px;
     margin: 32px 32px 32px 32px;
 
 }
