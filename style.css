@@ -187,25 +187,27 @@ textarea:hover {
     background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
     margin-left: 7%;
     width: 20%;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 35px 20px 35px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'Bebas Neue',sans-serif;
     color: white;
     border: ridge 7px black;
+    text-align: center;
     align-self: center;
     letter-spacing: 2px;
 }
 
 .btdes {
     background-image: linear-gradient(45deg,#C9161D, #4B0F0F, #090808);
-    width: 23%;
-    padding: 20px 30px 20px 30px;
+    width: 20%;
+    padding: 20px 35px 20px 35px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'Bebas Neue',sans-serif;
     color: white;
     border: ridge 7px black;
+    text-align: center;
     align-self: center;
     letter-spacing: 2px;
 
@@ -253,12 +255,13 @@ textarea:hover {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-family: 'Bebas Neue',sans-serif;
-    font-size: 34px;
+    font-size: 26px;
     align-items: center;
     text-decoration: none;
     text-align: center;
     color: black;
-    letter-spacing: 2px;   
+    letter-spacing: 2px; 
+    padding-bottom: 5px;
 }
 
 .retangulotxt {
